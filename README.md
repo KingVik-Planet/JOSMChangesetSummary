@@ -1,5 +1,5 @@
 <p align="center">
-  <img docs="docs/icon.png" alt="ChangesetSummary icon" width="128">
+  <img src="docs/icon.png" alt="ChangesetSummary icon" width="128">
 </p>
 
 # ChangesetSummary — a JOSM plugin
