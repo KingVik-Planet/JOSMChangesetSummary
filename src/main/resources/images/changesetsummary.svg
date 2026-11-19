@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <title>Changeset Summary</title>
+  <!-- circular "review" arrows -->
+  <path d="M6.15 17.5 A19 19 0 0 1 30.5 6.15" fill="none" stroke="#2e8b3d" stroke-width="4.5" stroke-linecap="round"/>
+  <polygon points="28.8,10.85 32.2,1.45 36.1,8.2" fill="#2e8b3d" stroke="#2e8b3d" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M41.85 30.5 A19 19 0 0 1 17.5 41.85" fill="none" stroke="#2e8b3d" stroke-width="4.5" stroke-linecap="round"/>
+  <polygon points="19.2,37.15 15.8,46.55 11.86,39.8" fill="#2e8b3d" stroke="#2e8b3d" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- document -->
+  <path d="M17 12 H27 L33 18 V34 a2 2 0 0 1 -2 2 H17 a2 2 0 0 1 -2 -2 V14 a2 2 0 0 1 2 -2 z" fill="#ffffff" stroke="#1b3550" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M27 12 V18 H33" fill="none" stroke="#1b3550" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M19 22 H29 M19 26 H27" stroke="#1b3550" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- check badge -->
+  <circle cx="30" cy="32" r="6" fill="#2e8b3d" stroke="#ffffff" stroke-width="1.5"/>
+  <path d="M27 32 l2.2 2.3 l4 -4.3" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

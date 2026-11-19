@@ -1,0 +1,2 @@
+Put josm-tested.jar in this folder.
+Download: https://josm.openstreetmap.de/josm-tested.jar

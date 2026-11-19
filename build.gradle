@@ -1,0 +1,42 @@
+// Plain Java build - does NOT use the old org.openstreetmap.josm Gradle plugin,
+// so it works on any Gradle version.
+//
+// Before building, put the JOSM jar here:  libs/josm-tested.jar
+// Download it from https://josm.openstreetmap.de/josm-tested.jar
+
+plugins {
+    id 'java'
+}
+
+group = 'org.tt.cus'
+version = '0.1.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Needed only to compile; JOSM provides these classes at runtime.
+    compileOnly files('libs/josm-tested.jar')
+}
+
+jar {
+    archiveBaseName = 'ChangesetSummary'
+    archiveVersion = ''   // JOSM expects the file to be named ChangesetSummary.jar
+    manifest {
+        attributes(
+            'Plugin-Class'       : 'org.tt.cus.ChangesetSummaryPlugin',
+            'Plugin-Description' : 'Writes a short natural-language summary of your edits into the upload comment',
+            'Plugin-Version'     : project.version,
+            'Plugin-Mainversion' : '19481',   // oldest JOSM version it should load in
+            'Plugin-Icon'        : 'images/changesetsummary.svg',
+            'Plugin-Link'        : 'https://github.com/KingVik-Planet/josm-changeset-summary',
+            'Author'             : 'Kingsley Chika CHUKWU'
+        )
+    }
+}
