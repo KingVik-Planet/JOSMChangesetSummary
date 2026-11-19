@@ -126,6 +126,6 @@ Requires JDK 17 and Gradle (the wrapper is included).
 2. Run `./gradlew build` (Windows: `gradlew.bat build`).
 3. The plugin is created at `build/libs/ChangesetSummary.jar`.
 
-## Maintainer
+## Author
 
 Kingsley Chika Chukwu — [KingVik-Planet](https://github.com/KingVik-Planet)
