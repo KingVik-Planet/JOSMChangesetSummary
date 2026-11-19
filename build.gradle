@@ -35,6 +35,7 @@ jar {
             'Plugin-Version'     : project.version,
             'Plugin-Mainversion' : '19481',   // oldest JOSM version it should load in
             'Plugin-Icon'        : 'images/changesetsummary.svg',
+            'Plugin-Minimum-Java-Version' : '17',  // JOSM will not load it on older Java
             'Plugin-Link'        : 'https://github.com/KingVik-Planet/JOSMChangesetSummary',
             'Author'             : 'Kingsley Chika CHUKWU'
         )
